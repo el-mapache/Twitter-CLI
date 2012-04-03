@@ -7,6 +7,7 @@ class JSTwitter
   
   def initialize
     puts "Initializing"
+    
     @client = JumpstartAuth.twitter
     @followers = @client.follower_ids["ids"]
     @friends = @client.friend_ids["ids"]
