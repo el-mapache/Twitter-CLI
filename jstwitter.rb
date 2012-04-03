@@ -95,13 +95,3 @@ end
 
 twitter = JSTwitter.new
 twitter.run
-#twitter.everyones_last_tweet
-# text = ''
-# until text.length > 140
-#   text=text + "abcd"
-# end
-# #twitter.run
-# twitter.followers_list
-# 
-# url = Googl::Shorten.new('http://www.somefakeurlthatislong.biz')
-# puts url.short_url
